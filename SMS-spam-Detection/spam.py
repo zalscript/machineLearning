@@ -11,7 +11,7 @@ st.title("📨 SMS Spam Detection")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("SMSSpamCollection.txt", sep="\t", header=None, names=["label", "message"])
+    df = pd.read_csv("SMS-spam-Detection/SMSSpamCollection.txt", sep="\t", header=None, names=["label", "message"])
     return df
 
 @st.cache_resource
