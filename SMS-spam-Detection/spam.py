@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
-st.title("📨 SMS Spam Detection")
+st.title("📨 SMS Spam Detection by Faizal")
 
 @st.cache_data
 def load_data():
